@@ -9,14 +9,13 @@ export default class ProptimusOmega extends React.Component {
   }
 
   render() {
-    console.log(this.props)
     return(
       <section>
         <img
           src={this.props.photo}
           className="App-logo"
           alt="logo"
-          onClick={this.props.callForBetterHelp}
+          onClick={this.props.sendThemHome}
         />
         <p>{this.props.catchPhrase}</p>
       </section>
